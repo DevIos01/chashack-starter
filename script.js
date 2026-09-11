@@ -107,3 +107,32 @@ document.addEventListener("mousemove", function (event) {
         prick.remove();
     }, sparLivstidMs);
 });
+
+const hemligtOrd = "boyzzzz";
+const hemligRuta = document.querySelector("#hemlig-ruta");
+let skrivnaTecken = "";
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        hemligRuta.hidden = true;
+        return;
+    }
+
+    if (event.key.length !== 1) {
+        return;
+    }
+
+    skrivnaTecken = (skrivnaTecken + event.key.toLowerCase()).slice(-hemligtOrd.length);
+
+    if (skrivnaTecken === hemligtOrd) {
+        skrivnaTecken = "";
+        hemligRuta.hidden = false;
+        skjutKonfetti();
+        fahhLjud.currentTime = 0;
+        fahhLjud.play();
+    }
+});
+
+hemligRuta.addEventListener("click", function () {
+    hemligRuta.hidden = true;
+});

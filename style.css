@@ -139,6 +139,61 @@ button:focus-visible{
     margin-right: 8px;
 }
 
+#lagbild{
+    width: 100%;
+    height: auto;
+    margin: 16px auto 32px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+#hemlig-ruta{
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+}
+
+#hemlig-ruta[hidden]{
+    display: none;
+}
+
+#hemlig-ruta img{
+    width: auto;
+    max-width: 90vw;
+    max-height: 75vh;
+    margin: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 60px var(--rod);
+    animation: poppa-upp 0.4s ease-out;
+}
+
+#hemlig-ruta p{
+    color: #fff;
+    font-family: "Bebas Neue", Impact, "Arial Black", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@keyframes poppa-upp{
+    from{
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 footer{
     border-top: 1px solid var(--rod);
     margin-top: 40px;
@@ -170,6 +225,7 @@ h1, img{
     background-color: var(--rod);
     border-radius: 2px;
     pointer-events: none;
+    z-index: 20;
     animation: falla 2s linear forwards;
 }
 
@@ -209,6 +265,10 @@ h1, img{
 
     .konfetti{
         display: none;
+    }
+
+    #hemlig-ruta img{
+        animation: none;
     }
 }
 
