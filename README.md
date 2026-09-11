@@ -27,6 +27,12 @@ Lagets egen hemsida, byggd med bara HTML, CSS och JavaScript:
 1. Klona repot och öppna mappen i VS Code.
 2. Högerklicka i `index.html` och välj **Open with Live Server**.
 
+## Sidan minns er
+
+Antalet laserskott sparas i webbläsarens `localStorage` under nyckeln
+`antalSkott`. Klicka på knappen några gånger och ladda om sidan med F5,
+siffran finns kvar.
+
 ## Kontrast
 
 Vi bytte från svart text på knallröd bakgrund till ljus text på nästan svart
