@@ -88,3 +88,22 @@ function hamtaSkamt() {
 
 nyttSkamtKnapp.addEventListener("click", hamtaSkamt);
 hamtaSkamt();
+
+const sparLivstidMs = 600;
+
+document.addEventListener("mousemove", function (event) {
+    if (villHaLugnSida) {
+        return;
+    }
+
+    const prick = document.createElement("div");
+    prick.classList.add("spar");
+    prick.style.left = event.clientX + "px";
+    prick.style.top = event.clientY + "px";
+    prick.style.animationDuration = sparLivstidMs + "ms";
+    document.body.appendChild(prick);
+
+    setTimeout(function () {
+        prick.remove();
+    }, sparLivstidMs);
+});
