@@ -10,3 +10,7 @@ laserKnapp.addEventListener("click", function () {
     antalSkott = antalSkott + 1;
     laserRaknare.textContent = "Antal laserskott: " + antalSkott;
 });
+
+document.getElementById('invertBtn').addEventListener('click', () => {
+    document.body.classList.toggle('inverted');
+});
