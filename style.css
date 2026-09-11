@@ -148,9 +148,34 @@ h1, img{
     animation: glid-in 0.8s ease-out;
 }
 
+.konfetti{
+    position: fixed;
+    top: -20px;
+    width: 8px;
+    height: 14px;
+    background-color: var(--rod);
+    border-radius: 2px;
+    pointer-events: none;
+    animation: falla 2s linear forwards;
+}
+
+.konfetti.vit{
+    background-color: var(--text);
+}
+
+@keyframes falla{
+    to{
+        transform: translateY(110vh) rotate(720deg);
+    }
+}
+
 @media (prefers-reduced-motion: reduce){
     h1, img{
         animation: none;
+    }
+
+    .konfetti{
+        display: none;
     }
 }
 
