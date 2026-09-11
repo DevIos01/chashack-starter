@@ -52,6 +52,39 @@ img{
     box-shadow: 0 0 30px var(--rod-glod);
 }
 
+button{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--rod);
+    color: #fff;
+    font-family: "Bebas Neue", Impact, "Arial Black", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 0 16px var(--rod-glod);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 32px var(--rod);
+}
+
+button:focus-visible{
+    outline: 3px solid var(--text);
+    outline-offset: 4px;
+}
+
+#laser-text{
+    text-align: center;
+    color: var(--rod);
+    font-weight: 700;
+    min-height: 1.6em;
+}
+
 footer{
     border-top: 1px solid var(--rod);
     margin-top: 40px;
