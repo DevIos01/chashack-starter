@@ -62,4 +62,4 @@ All brödtext klarar minst 4.5:1. Den röda rubriken är stor text, där kravet
 är 3:1.
 
 ## LinkedIn
-(https://www.linkedin.com/posts/angus-in-de-betou-2231a0436_the-boyzzzz-share-7504153316495540226-wj2D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACgmKS8B5nTTMCE9AMbSzmIR5ulxeY53UKI)
+[Post till LinkedIn](https://www.linkedin.com/posts/angus-in-de-betou-2231a0436_the-boyzzzz-share-7504153316495540226-wj2D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACgmKS8B5nTTMCE9AMbSzmIR5ulxeY53UKI)
