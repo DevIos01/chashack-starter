@@ -4,6 +4,7 @@
     --dampad: #b8b8c0;
     --rod: #e11d2e;
     --rod-glod: rgba(225, 29, 46, 0.5);
+    --kort: #16161d;
 }
 
 body{
@@ -11,6 +12,9 @@ body{
     color: var(--text);
     font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
 h1{
@@ -27,6 +31,25 @@ h2{
     font-family: Impact, "Arial Black", sans-serif;
     letter-spacing: 1px;
     color: var(--text);
+}
+
+ul{
+    background-color: var(--kort);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: 20px 20px 20px 48px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+li::marker{
+    color: var(--rod);
+}
+
+img{
+    display: block;
+    margin: 32px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 30px var(--rod-glod);
 }
 
 footer{
