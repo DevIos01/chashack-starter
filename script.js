@@ -13,6 +13,9 @@ laserKnapp.addEventListener("click", function () {
     laserRaknare.textContent = "Antal laserskott: " + antalSkott;
 });
 
+document.getElementById('invertBtn').addEventListener('click', () => {
+    document.body.classList.toggle('inverted');
+});
 const loggaKnapp = document.querySelector("#logga-knapp");
 const fahhLjud = new Audio("fahh.mp3");
 
