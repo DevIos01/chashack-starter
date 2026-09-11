@@ -33,6 +33,11 @@ Antalet laserskott sparas i webbläsarens `localStorage` under nyckeln
 `antalSkott`. Klicka på knappen några gånger och ladda om sidan med F5,
 siffran finns kvar.
 
+## Ljud vid klick
+
+Klicka på lagets logga, så spelas ljudet "Fahh" (`fahh.mp3`). Loggan är en
+knapp, så det går också att tabba dit och trycka Enter.
+
 ## Kontrast
 
 Vi bytte från svart text på knallröd bakgrund till ljus text på nästan svart
