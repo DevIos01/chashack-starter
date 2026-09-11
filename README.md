@@ -45,6 +45,12 @@ Sidan hämtar ett slumpat skämt från det öppna API:et
 klickar på **Nytt skämt**. Om anropet misslyckas, till exempel utan internet,
 visas texten "Kunde inte hämta ett skämt just nu. Testa igen om en stund."
 
+## Easter egg
+
+Skriv **boyzzzz** på tangentbordet var som helst på sidan. Då dyker lagbilden
+upp i stort format med konfetti och Fahh-ljud. Stäng med Esc eller genom att
+klicka.
+
 ## Kontrast
 
 Vi bytte från svart text på knallröd bakgrund till ljus text på nästan svart
