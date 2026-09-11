@@ -44,5 +44,3 @@ All brödtext klarar minst 4.5:1. Den röda rubriken är stor text, där kravet
 är 3:1.
 
 ## LinkedIn
-
-Vårt inlägg om dagen: _länk kommer här_
