@@ -40,13 +40,12 @@ ul{
     background-color: var(--kort);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 12px;
-    padding: 20px 20px 20px 48px;
+    padding: 20px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
-    text-align: center;
-list-style-position: inside;
-    
+    display: grid;
+    justify-content: center;
+    list-style-position: inside;
 }
-
 
 li::marker{
     color: var(--rod);
@@ -83,6 +82,23 @@ button:hover{
 button:focus-visible{
     outline: 3px solid var(--text);
     outline-offset: 4px;
+}
+
+#logga-knapp{
+    display: block;
+    margin: 32px auto;
+    padding: 0;
+    background: none;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+#logga-knapp img{
+    margin: 0;
+}
+
+#logga-knapp:hover{
+    box-shadow: 0 0 40px var(--rod);
 }
 
 #laser-text{
@@ -137,6 +153,6 @@ h1, img{
     }
 
     ul{
-        padding: 16px 16px 16px 36px;
+        padding: 16px;
     }
 }
