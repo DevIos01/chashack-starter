@@ -12,3 +12,11 @@ laserKnapp.addEventListener("click", function () {
     localStorage.setItem("antalSkott", antalSkott);
     laserRaknare.textContent = "Antal laserskott: " + antalSkott;
 });
+
+const loggaKnapp = document.querySelector("#logga-knapp");
+const fahhLjud = new Audio("fahh.mp3");
+
+loggaKnapp.addEventListener("click", function () {
+    fahhLjud.currentTime = 0;
+    fahhLjud.play();
+});

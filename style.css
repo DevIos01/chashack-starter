@@ -81,6 +81,23 @@ button:focus-visible{
     outline-offset: 4px;
 }
 
+#logga-knapp{
+    display: block;
+    margin: 32px auto;
+    padding: 0;
+    background: none;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+#logga-knapp img{
+    margin: 0;
+}
+
+#logga-knapp:hover{
+    box-shadow: 0 0 40px var(--rod);
+}
+
 #laser-text{
     text-align: center;
     color: var(--rod);
