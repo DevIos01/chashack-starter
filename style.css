@@ -10,7 +10,7 @@
 body{
     background-color: var(--bakgrund);
     color: var(--text);
-    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     max-width: 720px;
     margin: 0 auto;
@@ -19,8 +19,7 @@ body{
 
 h1{
     text-align: center;
-
-    font-family: Impact, "Arial Black", sans-serif;
+    font-family: "Bebas Neue", Impact, "Arial Black", sans-serif;
     font-size: 4rem;
     letter-spacing: 2px;
     color: var(--rod);
@@ -29,7 +28,7 @@ h1{
 
 h2{
     text-align: center;
-    font-family: Impact, "Arial Black", sans-serif;
+    font-family: "Bebas Neue", Impact, "Arial Black", sans-serif;
     letter-spacing: 1px;
     color: var(--text);
 }
