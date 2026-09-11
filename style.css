@@ -85,6 +85,12 @@ button:focus-visible{
     min-height: 1.6em;
 }
 
+#laser-raknare{
+    text-align: center;
+    color: var(--dampad);
+    font-size: 0.9rem;
+}
+
 footer{
     border-top: 1px solid var(--rod);
     margin-top: 40px;
