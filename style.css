@@ -1,5 +1,6 @@
 body{
     background-color: red;
+    color: white;  
 }
 
 h1{
@@ -7,5 +8,12 @@ h1{
 }
 
 h2{
+    text-align: center;
+}
+
+footer{
+    border-top: 1px solid black;
+    margin-top: 40px;
+    padding-top: 16px;
     text-align: center;
 }
