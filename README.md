@@ -38,6 +38,13 @@ siffran finns kvar.
 Klicka på lagets logga, så spelas ljudet "Fahh" (`fahh.mp3`). Loggan är en
 knapp, så det går också att tabba dit och trycka Enter.
 
+## Dagens skämt
+
+Sidan hämtar ett slumpat skämt från det öppna API:et
+[icanhazdadjoke.com](https://icanhazdadjoke.com/) när den laddas och när man
+klickar på **Nytt skämt**. Om anropet misslyckas, till exempel utan internet,
+visas texten "Kunde inte hämta ett skämt just nu. Testa igen om en stund."
+
 ## Kontrast
 
 Vi bytte från svart text på knallröd bakgrund till ljus text på nästan svart
