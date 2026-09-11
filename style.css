@@ -92,3 +92,17 @@ footer{
     text-align: center;
     color: var(--dampad);
 }
+
+@media (max-width: 600px){
+    body{
+        padding: 24px 16px;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    ul{
+        padding: 16px 16px 16px 36px;
+    }
+}
