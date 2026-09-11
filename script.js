@@ -23,3 +23,29 @@ loggaKnapp.addEventListener("click", function () {
     fahhLjud.currentTime = 0;
     fahhLjud.play();
 });
+
+const skamt = document.querySelector("#skamt");
+const nyttSkamtKnapp = document.querySelector("#nytt-skamt");
+
+function hamtaSkamt() {
+    skamt.textContent = "Laddar ett skämt...";
+
+    fetch("https://icanhazdadjoke.com/", {
+        headers: { Accept: "application/json" }
+    })
+        .then(function (svar) {
+            if (!svar.ok) {
+                throw new Error("Fel från API:et");
+            }
+            return svar.json();
+        })
+        .then(function (data) {
+            skamt.textContent = data.joke;
+        })
+        .catch(function () {
+            skamt.textContent = "Kunde inte hämta ett skämt just nu. Testa igen om en stund.";
+        });
+}
+
+nyttSkamtKnapp.addEventListener("click", hamtaSkamt);
+hamtaSkamt();
