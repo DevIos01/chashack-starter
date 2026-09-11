@@ -1,115 +1,48 @@
-# ChasHack starter
+# The Boyzzzz
 
-Det här är start-repot. Här ligger tre tomma filer som blir lagets hemsida
-under dagen:
+Vi är The Boyzzzz, ett lag på fyra personer som bygger vår egen lagsida
+under ChasHack for Rookies. Vi började med tre tomma filer och slutade med
+en publicerad webbplats.
 
-| Fil | Vad den gör |
-| --- | --- |
-| `index.html` | Innehållet: rubriker, text, bilder, knappar |
-| `style.css` | Utseendet: färger, typsnitt, placering |
-| `script.js` | Det som händer när man klickar |
+**Se sidan live:** [devios01.github.io/chashack-starter](https://devios01.github.io/chashack-starter/)
 
-**Alla uppgifter finns på uppgiftssidan:**
-[antonsatt.github.io/chashack-uppgiftssida](https://antonsatt.github.io/chashack-uppgiftssida/#start)
+## Laget
 
-Det här repot innehåller inga uppgifter - bara filerna ni bygger i.
+- Angus - [@Koalanharry07](https://github.com/Koalanharry07)
+- Julian - [@15juga](https://github.com/15juga)
+- Bryan - [@BryanRanchber](https://github.com/BryanRanchber)
+- Shubham - [@DevIos01](https://github.com/DevIos01)
 
----
+## Om sidan
 
-## Kom igång
+Lagets egen hemsida, byggd med bara HTML, CSS och JavaScript:
 
-### 1. Alla i laget skaffar ett GitHub-konto
+- `index.html` - innehållet: rubrik, pitch, laget, loggan, knappen och sidfoten
+- `style.css` - mörkt tema i rött och svart som matchar loggan, egna typsnitt
+  från Google Fonts, och en layout som funkar i mobilen
+- `script.js` - det som händer när man klickar på knappen
 
-Gå till [github.com/signup](https://github.com/signup). Skriv upp era
-användarnamn, ni behöver dem i steg 3.
+## Kör sidan lokalt
 
-### 2. En person i laget forkar det här repot
+1. Klona repot och öppna mappen i VS Code.
+2. Högerklicka i `index.html` och välj **Open with Live Server**.
 
-**Fork** = er egen kopia. Ni jobbar i kopian, inte i det här repot.
+## Kontrast
 
-1. Tryck på **Fork** uppe till höger på den här sidan.
-2. Tryck **Create fork**.
-3. Kontrollera att det står **Public** bredvid namnet. Står det Private:
-   gå till **Settings**, skrolla längst ner och byt.
+Vi bytte från svart text på knallröd bakgrund till ljus text på nästan svart
+bakgrund. Kontrasten mätt enligt WCAG:
 
-Er kopia hamnar på `https://github.com/ert-anvandarnamn/chashack-starter`.
+| Vad | Färger | Kontrast |
+| --- | --- | --- |
+| Brödtext | `#f2f2f2` på `#0b0b0f` | 17.5:1 |
+| Text i kortet | `#f2f2f2` på `#16161d` | 16.1:1 |
+| Sidfot | `#b8b8c0` på `#0b0b0f` | 10.0:1 |
+| Knapptext | `#ffffff` på `#e11d2e` | 4.8:1 |
+| Röd rubrik (stor text) | `#e11d2e` på `#0b0b0f` | 4.1:1 |
 
-### 3. Bjud in resten av laget
+All brödtext klarar minst 4.5:1. Den röda rubriken är stor text, där kravet
+är 3:1.
 
-I er nya kopia: **Settings → Collaborators → Add people**. Skriv in
-lagkamraternas användarnamn, en i taget.
+## LinkedIn
 
-De får ett mejl med en inbjudan som de måste **acceptera direkt** - annars
-kan de inte spara några ändringar.
-
-### 4. Hämta ner repot till datorn
-
-Tryck på gröna **Code**-knappen i ert repo och kopiera URL:en. Sen i
-terminalen:
-
-```bash
-git clone https://github.com/ert-anvandarnamn/chashack-starter.git
-cd chashack-starter
-```
-
-Öppna mappen i VS Code (**File → Open Folder**).
-
-Föredrar ni att slippa terminalen: ladda ner
-[GitHub Desktop](https://desktop.github.com/), logga in och välj
-**File → Clone repository**.
-
-### 5. Spara och skicka upp era ändringar
-
-Efter varje ändring:
-
-```bash
-git add .
-git commit -m "beskriv vad du gjorde"
-git push
-```
-
-Hämta lagkamraternas senaste ändringar innan ni börjar jobba:
-
-```bash
-git pull
-```
-
-I GitHub Desktop heter samma sak **Commit to main** och **Push origin**.
-
-**Push är viktigt.** Innan ni pushat finns ändringen bara på er dator, och
-inget annat lag kan granska den.
-
-### 6. Kör igång
-
-Gå till [uppgiftssidan](https://antonsatt.github.io/chashack-uppgiftssida/#start),
-skriv in lagnamnet och börja på steg 1 i huvudspåret.
-
----
-
-## Bra att veta
-- **Kör ni i VS Code? Installera tillägget Live Server.** Då slipper ni ladda
-  om: sidan uppdateras i webbläsaren direkt när ni sparar.
-  1. Tryck på ikonen med fyra rutor i menyn till vänster (**Extensions**).
-  2. Sök efter **Live Server** och tryck **Install**.
-  3. Högerklicka någonstans inne i `index.html` och välj **Open with Live Server**.
-
-  Sidan öppnas på `http://127.0.0.1:5500`. Låt fönstret ligga bredvid
-  VS Code medan ni jobbar - varje gång ni sparar med Ctrl+S syns ändringen
-  direkt.
-- **Byt ut den här README-filen.** I steg 11 skriver ni en egen README med
-  lagets namn, medlemmarna och länken till er publicerade sida.
-- **Fastnar ni?** Fråga en handledare. Det räknas inte emot er. Fastnar ni
-  mer än en kvart: hoppa till nästa steg och kom tillbaka senare.
-
-## Ordlista
-
-| Ord | Betyder |
-| --- | --- |
-| **Repo** | Mappen med er kod, på GitHub |
-| **Fork** | Er egen kopia av någon annans repo |
-| **Clone** | Hämta ner repot till datorn |
-| **Commit** | En sparad ändring i historiken |
-| **Push** | Skicka upp era commits till GitHub |
-| **Pull** | Hämta ner lagkamraternas senaste ändringar |
-| **Collaborator** | Någon som får spara ändringar i repot |
-| **Deploya** | Lägga upp sidan så att andra kan öppna den |
+Vårt inlägg om dagen: _länk kommer här_
