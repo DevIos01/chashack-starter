@@ -125,6 +125,20 @@ button:focus-visible{
     font-style: italic;
 }
 
+#loggbok{
+    list-style: none;
+    justify-content: stretch;
+}
+
+#loggbok li{
+    padding: 4px 0;
+}
+
+#loggbok strong{
+    color: var(--rod);
+    margin-right: 8px;
+}
+
 footer{
     border-top: 1px solid var(--rod);
     margin-top: 40px;
