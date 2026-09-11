@@ -13,8 +13,16 @@ laserKnapp.addEventListener("click", function () {
     laserRaknare.textContent = "Antal laserskott: " + antalSkott;
 });
 
-document.getElementById('invertBtn').addEventListener('click', () => {
+const btn = document.getElementById('invertBtn');
+
+btn.addEventListener('click', () => {
     document.body.classList.toggle('inverted');
+    
+    if (document.body.classList.contains('inverted')) {
+        btn.textContent = 'Dark Mode';
+    } else {
+        btn.textContent = 'Light Mode';
+    }
 });
 const loggaKnapp = document.querySelector("#logga-knapp");
 const fahhLjud = new Audio("fahh.mp3");
