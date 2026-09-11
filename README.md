@@ -62,3 +62,4 @@ All brödtext klarar minst 4.5:1. Den röda rubriken är stor text, där kravet
 är 3:1.
 
 ## LinkedIn
+(https://www.linkedin.com/in/angus-in-de-betou-2231a0436/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Baui%2FLyVQTkqDyRRYJAHenQ%3D%3D)
